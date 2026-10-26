@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Learning Portal</title>
+</head>
+<body>
+
+    <center>
+        <h1>Online Learning Portal</h1>
+    </center>
+
+    <table border="0" width="100%">
+        <tr>
+            <td width="40%" valign="top">
+                <img src="online_learning.png" alt="Figure 1: Online Learning" width="300"><br>
+                <small><em>Figure 1: Online Learning</em></small>
+            </td>
+            <td width="60%" valign="top">
+                <p>Welcome to our online learning portal. We provide high-quality courses in web design, programming and data science.</p>
+                <p><strong>Lecture Audio</strong></p>
+                <audio controls>
+                    <source src="lecture_audio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Available Courses</h2>
+
+    <table border="1" cellpadding="5" cellspacing="0" width="100%">
+        <tr bgcolor="#E6F2FF">
+            <th>Course Code</th>
+            <th>Course Name</th>
+            <th>Duration</th>
+        </tr>
+        <tr>
+            <td>WT101</td>
+            <td>HTML and CSS</td>
+            <td>6 Weeks</td>
+        </tr>
+        <tr>
+            <td>WT102</td>
+            <td>JavaScript Basics</td>
+            <td>6 Weeks</td>
+        </tr>
+    </table>
+
+</body>
+</html>
